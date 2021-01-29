@@ -3,9 +3,12 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+function hideHeader() {
+  let header = document.getElementById("modal");
+  header.hidden = true;
+}
 
-
-
+hideHeader()
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
